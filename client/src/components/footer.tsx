@@ -15,7 +15,7 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-xl mb-4">Megha Gupta</h3>
             <p className="text-gray-300 mb-4">
-              Digital Marketing Professional passionate about creating impactful digital experiences and driving business growth.
+              Frontend Software Engineer passionate about building scalable, high-performance web applications and creating exceptional user experiences.
             </p>
             <div className="flex space-x-4">
               <a 
@@ -94,13 +94,13 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Services</h4>
+            <h4 className="font-semibold mb-4">Expertise</h4>
             <ul className="space-y-2">
-              <li><span className="text-gray-300">Digital Marketing Strategy</span></li>
-              <li><span className="text-gray-300">Social Media Management</span></li>
-              <li><span className="text-gray-300">Brand Development</span></li>
-              <li><span className="text-gray-300">Content Creation</span></li>
-              <li><span className="text-gray-300">Performance Analytics</span></li>
+              <li><span className="text-gray-300">Frontend Development</span></li>
+              <li><span className="text-gray-300">Performance Optimization</span></li>
+              <li><span className="text-gray-300">React & TypeScript</span></li>
+              <li><span className="text-gray-300">CI/CD & DevOps</span></li>
+              <li><span className="text-gray-300">Team Leadership</span></li>
             </ul>
           </div>
         </div>

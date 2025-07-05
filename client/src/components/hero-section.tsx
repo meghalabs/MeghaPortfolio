@@ -24,7 +24,7 @@ export default function HeroSection() {
               Hi, I'm <span className="text-primary">Megha Gupta</span>
             </h1>
             <p className="text-xl text-text mb-8 leading-relaxed">
-              Digital Marketing Specialist & Creative Professional passionate about creating impactful digital experiences and driving business growth through innovative strategies.
+              Frontend Software Engineer with 10+ years of experience building scalable, high-performance web applications. Passionate about crafting AI-integrated user experiences and building the future of e-commerce.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button onClick={handleViewWork} className="bg-primary text-white hover:bg-primary/90">

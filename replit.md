@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a full-stack portfolio website built with React, TypeScript, and Express.js. The application showcases a professional profile with sections for about, skills, projects, experience, and contact information. It features a modern design using shadcn/ui components and includes a contact form with backend data persistence.
+This is a full-stack portfolio website built with React, TypeScript, and Express.js for Megha Gupta, a Frontend Software Engineer with 10+ years of experience. The application showcases her professional profile including work at Walmart Labs and Alaska Airlines, with sections for about, skills, projects, experience, and contact information. It features a modern design using shadcn/ui components and includes a contact form with backend data persistence.
 
 ## System Architecture
 
@@ -23,7 +23,7 @@ This is a full-stack portfolio website built with React, TypeScript, and Express
 
 ### Data Flow
 1. **Contact Form Submission**: User fills out contact form → Form validation → API request to `/api/contact` → Database storage → Success response
-2. **Static Content**: Hero section, about, skills, projects, and experience data is hardcoded in components
+2. **Static Content**: Hero section, about, skills, projects, and experience data customized with Megha's actual professional information from her resume
 3. **Image Assets**: External images served from Unsplash for portfolio content
 
 ## Key Components
@@ -102,6 +102,14 @@ This is a full-stack portfolio website built with React, TypeScript, and Express
 ```
 Changelog:
 - July 05, 2025. Initial setup
+- July 05, 2025. Customized portfolio with Megha Gupta's actual professional information:
+  * Updated hero section with Frontend Software Engineer title and experience
+  * Modified about section to reflect 10+ years at Walmart Labs and tech background
+  * Updated skills section with React, TypeScript, performance optimization focus
+  * Replaced projects with actual work: Walmart.com rebuild, CI/CD optimization, Alaska Airlines RouteMap
+  * Updated experience timeline with Walmart Labs, Alaska Airlines, and previous roles
+  * Modified education section with M.S. Computer Science and B.E. degrees
+  * Updated contact information with real email, phone, and SF Bay Area location
 ```
 
 ## User Preferences

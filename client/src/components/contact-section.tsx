@@ -64,8 +64,8 @@ export default function ContactSection() {
           <div>
             <h3 className="text-2xl font-semibold text-secondary mb-6">Let's Connect</h3>
             <p className="text-text mb-8">
-              I'm always excited to discuss new opportunities, creative projects, and innovative marketing strategies. 
-              Whether you're looking to grow your business or explore new digital horizons, let's start a conversation.
+              I'm always excited to discuss new opportunities, innovative projects, and cutting-edge frontend technologies. 
+              Whether you're looking to build scalable applications or optimize performance, let's start a conversation.
             </p>
             <div className="space-y-4">
               <div className="flex items-center">
@@ -74,7 +74,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="font-medium text-secondary">Email</p>
-                  <p className="text-text">megha.gupta@email.com</p>
+                  <p className="text-text">megha.gupta2205@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-center">
@@ -83,7 +83,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="font-medium text-secondary">Phone</p>
-                  <p className="text-text">+91 98765 43210</p>
+                  <p className="text-text">(425) 300-0399</p>
                 </div>
               </div>
               <div className="flex items-center">
@@ -92,7 +92,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="font-medium text-secondary">Location</p>
-                  <p className="text-text">Mumbai, India</p>
+                  <p className="text-text">San Francisco Bay Area, CA</p>
                 </div>
               </div>
             </div>

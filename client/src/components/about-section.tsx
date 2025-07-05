@@ -7,34 +7,34 @@ export default function AboutSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-secondary mb-4">About Me</h2>
           <p className="text-lg text-text max-w-2xl mx-auto">
-            Passionate professional with expertise in digital marketing, creative strategy, and business development
+            Frontend Software Engineer passionate about building scalable, high-performance web applications and creating exceptional user experiences
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h3 className="text-2xl font-semibold text-secondary mb-6">My Journey</h3>
             <p className="text-text mb-6">
-              With over 5 years of experience in digital marketing and creative strategy, I've helped businesses 
-              transform their online presence and achieve measurable growth. My approach combines data-driven 
-              insights with creative storytelling to deliver results that matter.
+              With over 10 years of experience in frontend development, I've specialized in building scalable, 
+              high-performance web applications across e-commerce, travel, and media domains. Currently at Walmart Labs, 
+              I spearheaded rebuilding Walmart.com from scratch using React, TypeScript, and modern architecture patterns.
             </p>
             <p className="text-text mb-6">
-              I specialize in developing comprehensive digital strategies that encompass social media marketing, 
-              content creation, brand development, and performance optimization. My work spans across various 
-              industries, from startups to established enterprises.
+              My expertise spans from optimizing core web vitals (TTI, LCP, FCP) to implementing CI/CD automation 
+              that reduced pipeline time by 70%. I'm passionate about creating intuitive user experiences while 
+              maintaining enterprise-scale performance and reliability.
             </p>
             <div className="flex flex-wrap gap-4">
               <div className="bg-primary/10 text-primary px-4 py-2 rounded-lg flex items-center">
                 <TrendingUp className="w-4 h-4 mr-2" />
-                Growth-Focused
+                Performance-Driven
               </div>
               <div className="bg-accent/10 text-accent px-4 py-2 rounded-lg flex items-center">
                 <Lightbulb className="w-4 h-4 mr-2" />
-                Creative
+                Innovation-Focused
               </div>
               <div className="bg-green-100 text-green-600 px-4 py-2 rounded-lg flex items-center">
                 <Users className="w-4 h-4 mr-2" />
-                Collaborative
+                Team Leadership
               </div>
             </div>
           </div>

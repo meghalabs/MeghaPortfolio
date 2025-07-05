@@ -4,27 +4,27 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function ExperienceSection() {
   const experiences = [
     {
-      period: "2022 - Present",
+      period: "2019 - Present",
       status: "Current",
-      title: "Senior Digital Marketing Manager",
-      company: "TechCorp Solutions",
-      description: "Leading digital marketing initiatives for B2B tech solutions, managing a team of 5 marketers, and driving 40% year-over-year growth in qualified leads.",
+      title: "Software Engineer",
+      company: "Walmart Labs",
+      description: "Spearheaded the rebuild of Walmart.com using React, TypeScript, and orchestration layer APIs. Led CI/CD optimization initiatives reducing pipeline time by 70%, and enhanced Cart & Checkout workflows for millions of users.",
       color: "primary"
     },
     {
-      period: "2020 - 2022",
-      status: "2 years",
-      title: "Digital Marketing Specialist",
-      company: "CreativeMinds Agency",
-      description: "Developed and executed digital marketing campaigns for 20+ clients across various industries, achieving an average ROI improvement of 130%.",
+      period: "2015 - 2019",
+      status: "4 years",
+      title: "Software Engineer",
+      company: "Alaska Airlines & Virgin America",
+      description: "Led frontend development for high-visibility features across check-in, loyalty, and shopping platforms. Managed Virgin America integration and led a 4-member team as both Scrum Master and developer.",
       color: "accent"
     },
     {
-      period: "2018 - 2020",
-      status: "2 years",
-      title: "Marketing Coordinator",
-      company: "StartupHub Inc.",
-      description: "Managed social media accounts, created content calendars, and supported marketing campaigns that helped increase brand awareness by 250%.",
+      period: "2011 - 2015",
+      status: "4 years",
+      title: "Software Engineer / Developer",
+      company: "Multiple Companies",
+      description: "Delivered full-stack solutions across media, IoT, retail analytics, and education industries. Developed microservices, real-time data pipelines, and automated testing frameworks.",
       color: "green"
     }
   ];
@@ -32,30 +32,30 @@ export default function ExperienceSection() {
   const education = [
     {
       icon: GraduationCap,
-      title: "MBA in Marketing",
-      institution: "University of Business Excellence",
-      period: "2016 - 2018",
+      title: "M.S. Computer Science",
+      institution: "University of South Carolina",
+      period: "2012 - 2014",
       color: "primary"
     },
     {
-      icon: Tag,
-      title: "Google Analytics Certified",
-      institution: "Google Digital Marketing",
-      period: "2021",
+      icon: GraduationCap,
+      title: "B.E. Electronics & Telecommunication",
+      institution: "IET DAVV, Indore",
+      period: "2008 - 2012",
       color: "accent"
     },
     {
       icon: Award,
-      title: "HubSpot Inbound Marketing",
-      institution: "HubSpot Academy",
+      title: "Software as a Service",
+      institution: "Professional Certification",
       period: "2020",
       color: "green"
     },
     {
       icon: Star,
-      title: "Facebook Blueprint Certified",
-      institution: "Meta Business",
-      period: "2022",
+      title: "Differential Serving",
+      institution: "Walmart Labs Publication",
+      period: "2020",
       color: "purple"
     }
   ];
@@ -85,7 +85,7 @@ export default function ExperienceSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-secondary mb-4">Work Experience</h2>
           <p className="text-lg text-text max-w-2xl mx-auto">
-            Professional journey spanning digital marketing, creative strategy, and business development
+            Professional journey spanning frontend development, performance optimization, and team leadership
           </p>
         </div>
         <div className="relative">
