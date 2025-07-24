@@ -2,8 +2,23 @@ import { ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
+interface Project {
+  image: string;
+  title: string;
+  description: string;
+  tags: string[];
+  liveDemo?: string;
+}
+
 export default function ProjectsSection() {
-  const projects = [
+  const projects: Project[] = [
+    {
+      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80",
+      title: "Issue Tracker",
+      description: "A full-stack Issue Tracker app built with Next.js App Router, TypeScript, Tailwind CSS, and Prisma ORM. Features dynamic filters, charts, status dashboards, authentication, and real-time rendering with scalable architecture.",
+      tags: ["Next.js", "TypeScript", "Prisma", "MySQL"],
+      liveDemo: "https://issue-tracker-nextjs-xi.vercel.app/"
+    },
     {
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80",
       title: "Walmart.com Rebuild",
@@ -71,9 +86,20 @@ export default function ProjectsSection() {
                     </Badge>
                   ))}
                 </div>
-                <button className="text-primary font-medium hover:text-primary/80 transition-colors flex items-center">
-                  View Project <ArrowRight className="w-4 h-4 ml-1" />
-                </button>
+                {project.liveDemo ? (
+                  <a 
+                    href={project.liveDemo} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-primary font-medium hover:text-primary/80 transition-colors flex items-center"
+                  >
+                    Live Demo <ArrowRight className="w-4 h-4 ml-1" />
+                  </a>
+                ) : (
+                  <button className="text-primary font-medium hover:text-primary/80 transition-colors flex items-center">
+                    View Project <ArrowRight className="w-4 h-4 ml-1" />
+                  </button>
+                )}
               </CardContent>
             </Card>
           ))}
