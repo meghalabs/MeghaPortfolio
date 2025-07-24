@@ -17,9 +17,9 @@ This is a full-stack portfolio website built with React, TypeScript, and Express
 ### Backend Architecture
 - **Runtime**: Node.js with Express.js server
 - **Database**: PostgreSQL with Drizzle ORM
-- **Database Provider**: Neon serverless PostgreSQL
+- **Database Provider**: PostgreSQL database with full persistence
 - **API**: RESTful endpoints for contact form submissions
-- **Development Storage**: In-memory storage fallback for development
+- **Storage**: DatabaseStorage implementation with PostgreSQL backend
 
 ### Data Flow
 1. **Contact Form Submission**: User fills out contact form → Form validation → API request to `/api/contact` → Database storage → Success response
@@ -55,9 +55,9 @@ This is a full-stack portfolio website built with React, TypeScript, and Express
 6. Success/error response sent back to client
 7. Toast notification displayed to user
 
-### Development vs Production
-- **Development**: Uses in-memory storage for contact submissions
-- **Production**: Uses PostgreSQL database via Neon serverless
+### Database Integration
+- **Production**: Uses PostgreSQL database with full data persistence
+- **Contact Forms**: All submissions stored permanently in database
 - **Build Process**: Vite builds React client, esbuild bundles server code
 
 ## External Dependencies
@@ -110,6 +110,10 @@ Changelog:
   * Updated experience timeline with Walmart Labs, Alaska Airlines, and previous roles
   * Modified education section with M.S. Computer Science and B.E. degrees
   * Updated contact information with real email, phone, and SF Bay Area location
+- July 05, 2025. Added PostgreSQL database integration:
+  * Created DatabaseStorage implementation replacing in-memory storage
+  * Added database connection with Drizzle ORM
+  * Successfully pushed schema and verified contact form data persistence
 ```
 
 ## User Preferences
